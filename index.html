@@ -2,26 +2,22 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTML com JS</title>
-    <link rel="stylesheet" href="./main.css" />
+    <title>Tabacaria Monster</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <div class="container">
-        <h1>EBAC Banking</h1>
-        <h2>Depósitos</h2>
-        <form id="form-deposito">
-            <input type="text" id="nome-beneficiario" required placeholder="Nome completo do beneficiário" />
-            <p class="error-message"></p>
-            <input type="number" id="numero-conta" required placeholder="Número da conta" />
-            <input type="number" id= "valor-deposito" required placeholder="Valor" />
-            <textarea placeholder="Descrição (opcional)" id="descricao"></textarea>
-            <button id="btn-depositar" type="submit">Depositar</button>
+        <h1>Tabcaria Monster</h1>
+        <h2>Compre seu cigarro aqui</h2>
+        <form id="form-compra">
+            <input type="text" id="nome-cliente" required placeholder="Digite seu nome aqui">
+            <input type="number" id="numero-idade" required placeholder="Idade">
+            <p class="error-message">Precisa ser maior de 18 anos</p>
+            <p class="success-message"></p>
+            <button id="btn-prosseguir" type="submit">Prosseguir</button>
         </form>
-        <p class="success-message"></p>
     </div>
-    <script src="./main.js"></script>
+    <script src="main.js"></script>
 </body>
-
 </html>
