@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    color: #ff4d00; 
+    background-color: #443737; 
+    font-size: 16px;
+}
+
+header {
+    background-color: #272121; 
+    padding: 10px 0;
+}
+
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-left: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li a {
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #FF4D00;
+}
+
+.secao {
+    padding: 20px;
+    background-color: #443737; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+}
+
+.secao h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ff4d00; 
+}
+
+.produtos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.produto {
+    width: calc(25% - 10px);
+    margin-bottom: 20px;
+    background-color: #272121;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.produto img {
+    max-width: 70%;
+    height: 65%;
+    background-color: transparent;
+}
+
+.produto h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.produto p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.adicionar-ao-carrinho {
+    background-color: #FF0000; 
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+    display: block;
+    width: 100%;
+}
+
+.adicionar-ao-carrinho:hover {
+    background-color: #FF4D00; 
+}
+
+.secao hr {
+    border: 1px solid #ff4d00; 
+    margin: 20px 0;
+}
+
+.sobre-conteudo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sobre-conteudo img {
+    max-width: 50%;
+    height: auto;
+    margin-right: 20px;
+}
+
+.sobre-conteudo h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+@media (max-width: 1024px) {
+    body {
+        font-size: 14px;
+    }
+
+    .produto {
+        width: calc(45% - 10px);
+        margin-right: 20px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+
+    .produto {
+        width: 100%;
+    }
+
+    .sobre-conteudo {
+        flex-direction: column;
+    }
+
+    .sobre-conteudo img {
+        max-width: 100%;
+        margin-right: 0;
+    }
+}
