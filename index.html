@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros Esportivos</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .carousel img {
+            width: 100%;
+            height: 400px; 
+            object-fit: cover; 
+        }
+
+        .card img {
+            width: 100%;
+            height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h2>Carros Esportivos</h2>
+        <div id="carouselExample" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="img/jaguar type f.webp" alt="Primeiro slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="img/corvette.png" alt="Segundo slide">
+                </div>
+                
+            </div>
+            <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/gallardo.jpeg" alt="Carro Esportivo 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Lamborghini Gallardo</h5>
+                        <p class="card-text">O Gallardo foi um modelo esportivo da Lamborghini, tendo sido lançado em 2004. É o primeiro modelo da marca equipado com motor V10, agora com 520 CV. No Salão de Genebra de 2007 foi lançada a versão Superleggera, com 10 cv a mais e 100 Kg a menos. Em 2005 foi considerado pela revista Car Design News um dos dez carros mais belos do mundo, e um dos três feitos por Giorgetto Giugiaro que está nesta lista, foi sucedido pelo Lamborghini Huracán.</p>
+                        <button type="button" class="btn btn-primary">Leia mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/spider.png" alt="Carro Esportivo 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Ferrari Spider</h5>
+                        <p class="card-text">A Ferrari 458 Italia é um modelo esportivo da Ferrari. Suas primeiras fotos foram divulgadas pela Ferrari em 28 de julho de 2009 e será apresentado no Salão do Automóvel de Frankfurt. É o sucessor do Ferrari F430 e em 2015 foi substituído pelo Ferrari 488 GTB, que foi revelado no Salão Internacional do Automóvel de Genebra 2015.</p>
+                        <button type="button" class="btn btn-primary">Leia mais</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                <div class="card">
+                    <img class="card-img-top" src="img/mercedes.png" alt="Carro Esportivo 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Mercedes Vision GT</h5>
+                        <p class="card-text">O Mercedes-Benz AMG Vision Gran Turismo é um carro-conceito produzido pela Mercedes-Benz e pela divisão Mercedes-AMG. Foi desenvolvido como um carro-conceito em um videogame, mas posteriormente construído como um modelo da vida real. </p>
+                        <button type="button" class="btn btn-primary">Leia mais</button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
