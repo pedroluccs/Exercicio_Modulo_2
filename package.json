@@ -1,0 +1,12 @@
+{
+  "devDependencies": {
+    "grunt": "^1.6.1",
+    "grunt-contrib-less": "^3.0.0",
+    "grunt-contrib-uglify": "^5.2.2",
+    "grunt-contrib-watch": "^1.1.0",
+    "tarefa": "^0.0.1"
+  },
+  "dependencies": {
+    "grunt-concurrent": "^3.0.0"
+  }
+}
